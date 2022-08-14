@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: imageerrorpod
+spec:
+  containers:
+  - name: imageerrorcontainer
+    image: enginx
+
