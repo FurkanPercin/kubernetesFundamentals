@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: failedPod
+  name: failedpod
 spec:
   containers:
-  - name: failedContainer
+  - name: failedcontainer
     image: ubuntu:latest
     command: ['sh', '-c', 'abc']
